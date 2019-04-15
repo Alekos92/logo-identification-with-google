@@ -47,7 +47,7 @@ export default class App extends React.Component<any> {
                         </Container>
                     </Col>
                     <Col>
-                        <Row>Draw the logo of: <b>{state.fancy_logo_name}</b>&nbsp;<ChangeLogoButton/></Row>
+                        <Row>Draw the logo of:&nbsp;<b>{state.fancy_logo_name}</b>&nbsp;<ChangeLogoButton/></Row>
                         <br/>
                         <Row><InfoAlert/></Row>
                     </Col>
