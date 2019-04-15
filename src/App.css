@@ -1,0 +1,9 @@
+.summary {
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.drawing-area {
+    border: 8px solid black;
+    align-content: center;
+}

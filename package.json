@@ -1,0 +1,51 @@
+{
+  "name": "data_science_project",
+  "version": "0.1.0",
+  "private": false,
+  "dependencies": {
+    "@google-cloud/vision": "^0.25.0",
+    "bootstrap": "^4.3.1",
+    "express": "^4.16.4",
+    "jquery": "^3.4.0",
+    "mobx": "^5.9.4",
+    "mobx-react": "^5.4.3",
+    "personality-text-summary": "^2.2.0",
+    "react": "^16.8.6",
+    "react-d3-radar": "^1.0.0-rc6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^1.1.4",
+    "reactstrap": "^8.0.0",
+    "watson-developer-cloud": "^3.5.0",
+    "react-sketch": "^0.5.1",
+    "data-uri-to-buffer": "^2.0.1",
+    "react-color": "^2.17.0",
+    "random-obj-key": "^2.0.0",
+    "random-item": "^2.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "A simple app that uses IBM's cognitive services in order to produce personality insights for text provided by the user.",
+  "main": "index.js",
+  "author": "Alex Mandalios",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bootstrap": "^4.3.0",
+    "@types/node": "^11.13.4",
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-autocomplete": "^1.8.5",
+    "@types/react-autosuggest": "^9.3.7",
+    "@types/reactstrap": "^8.0.0",
+    "typescript": "^3.4.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
