@@ -7,7 +7,7 @@ In order to use it:
 
 1. Install nodejs, as instructed here https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/
 2. Install typescript, as instructed here https://blog.programster.org/ubuntu-16-04-install-typescript
-3. Place your own json key file, that you downloaded from your service accounts page.
+3. Download your json key file, from the service accounts page.
 4. Install required packages by running npm install.
 5. Start typescript in watch mode, in order to transpile, by running `tsc -w`.
 6. Start the express server, that will communicate with the cloud, by first setting the environment variable for the credentials `export GOOGLE_APPLICATION_CREDENTIALS=your_file_name.json` and then running `node src/express.js` (port 5000).
